@@ -1,6 +1,8 @@
 # Building a distributed cli using Makefile
 
-This repository how we can distribute and update common makefile targets to multiple repositories.
+## The problem
+
+Distribute to multiple machine learning repositories a cli that provides common features (unit tests, run training job). Allow customization in case following convention isn't possible. It should be possible to update the cli from a central location, without breaking customizations.
 
 ## Getting started
 

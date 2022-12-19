@@ -3,8 +3,7 @@ mlops-train: jobfile=$(PIPELINE_FILE)
 register_model=false
 mlops-train: init
 	@echo training from $(jobfile), register model=$(register_model)...
-	@cat $(jobfile)
-	@echo "\nDone!"
+	@echo Done!
 
 mlops-setup-tools:
 	@echo installing azcli...
